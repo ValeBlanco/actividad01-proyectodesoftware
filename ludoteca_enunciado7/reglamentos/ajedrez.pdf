@@ -1,0 +1,92 @@
+%PDF-1.4
+1 0 obj
+<<
+  /Type /Catalog
+  /Pages 2 0 R
+>>
+endobj
+2 0 obj
+<<
+  /Type /Pages
+  /Kids [3 0 R]
+  /Count 1
+>>
+endobj
+3 0 obj
+<<
+  /Type /Page
+  /Parent 2 0 R
+  /MediaBox [0 0 612 792]
+  /Resources <<
+    /Font <<
+      /F1 5 0 R
+      /F2 6 0 R
+    >>
+  >>
+  /Contents 4 0 R
+>>
+endobj
+4 0 obj
+<<
+  /Length 767
+>>
+stream
+BT
+/F1 22 Tf
+50 720 Td
+(Reglamento Oficial: Ajedrez) Tj
+0 -40 Td
+/F1 14 Tf
+(Categoria: Estrategia) Tj
+0 -30 Td
+/F2 12 Tf
+(Objetivo y Descripcion del Juego:) Tj
+0 -25 Td
+(El juego milenario de estrategia por excelencia. Dos jugadores compiten moviendo sus pieza) Tj
+0 -20 Td
+(s sobre un tablero cuadriculado de 64 casillas con el objetivo de dar jaque mate al rey contrario.) Tj
+0 -40 Td
+(Instrucciones Basicas de Partida:) Tj
+0 -20 Td
+(1. Preparar el material y componentes en el centro de la mesa.) Tj
+0 -20 Td
+(2. Sortear el jugador inicial y respetar los turnos en sentido horario.) Tj
+0 -20 Td
+(3. El primer jugador en cumplir la condicion de victoria gana la partida.) Tj
+0 -50 Td
+/F1 10 Tf
+(Sitio Web de Resenas de Juegos de Mesa - Descarga de Reglamento) Tj
+ET
+endstream
+endobj
+5 0 obj
+<<
+  /Type /Font
+  /Subtype /Type1
+  /BaseFont /Helvetica-Bold
+>>
+endobj
+6 0 obj
+<<
+  /Type /Font
+  /Subtype /Type1
+  /BaseFont /Helvetica
+>>
+endobj
+xref
+0 7
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000300 00000 n 
+0000000400 00000 n 
+0000000490 00000 n 
+trailer
+<<
+  /Size 7
+  /Root 1 0 R
+>>
+startxref
+575
+%%EOF

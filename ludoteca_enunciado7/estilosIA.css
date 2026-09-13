@@ -1,0 +1,268 @@
+/* ==========================================================
+   estilosIA.css - Archivo de estilos único para la Ludoteca
+   Requerimientos del Enunciado:
+   - Color de fondo: celeste
+   - Color del borde de las fotos de los juegos: amarillo
+   - Color del texto: naranja y en letra cursiva
+   - Completamente responsivo
+   - Sin scripts
+   ========================================================== */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #87CEEB; /* Celeste */
+    color: #D35400; /* Naranja */
+    font-style: italic; /* Cursiva requerida */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* ENCABEZADO Y BARRA DE NAVEGACIÓN */
+header {
+    background-color: #6fbddf;
+    border-bottom: 3px solid #D35400;
+    padding: 1.2rem 1rem;
+    text-align: center;
+}
+
+.logo-area h1 {
+    font-size: 2rem;
+    margin-bottom: 0.2rem;
+    color: #b33900;
+}
+
+.subtitulo {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+nav li a {
+    display: inline-block;
+    color: #D35400;
+    background-color: #d4f0fc;
+    border: 2px solid #D35400;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 6px;
+    transition: all 0.2s ease-in-out;
+}
+
+nav li a:hover,
+nav li a.activo {
+    background-color: #FFD700; /* Amarillo de realce */
+    color: #8A3300;
+    border-color: #8A3300;
+}
+
+/* CONTENIDO PRINCIPAL */
+main {
+    flex: 1;
+    width: 92%;
+    max-width: 950px;
+    margin: 2rem auto;
+    background-color: rgba(255, 255, 255, 0.45);
+    border: 2px solid #D35400;
+    border-radius: 10px;
+    padding: 2rem;
+}
+
+h2 {
+    font-size: 1.7rem;
+    margin-bottom: 0.8rem;
+    text-align: center;
+    color: #b33900;
+}
+
+.descripcion-seccion {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 1.05rem;
+}
+
+/* PRESENTACIÓN EN COLUMNA (Juegos apilados verticalmente como en la imagen) */
+.lista-juegos {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.tarjeta-juego {
+    background-color: rgba(255, 255, 255, 0.6);
+    border: 2px dashed #D35400;
+    border-radius: 8px;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+/* FOTOS CON BORDE AMARILLO (Requisito estricto) */
+.contenedor-foto img {
+    border: 5px solid #FFD700; /* Borde amarillo */
+    border-radius: 6px;
+    width: 100%;
+    max-width: 280px;
+    height: auto;
+    display: block;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+.info-juego {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.info-juego h3 {
+    font-size: 1.5rem;
+    color: #b33900;
+    margin-bottom: 0.6rem;
+}
+
+.resena {
+    margin-bottom: 1.2rem;
+    font-size: 1rem;
+}
+
+/* ENLACE / BOTÓN DE DESCARGA DE REGLAMENTO */
+.btn-reglamento {
+    display: inline-block;
+    background-color: #FFD700;
+    color: #8A3300;
+    font-weight: bold;
+    text-decoration: none;
+    border: 2px solid #D35400;
+    padding: 8px 18px;
+    border-radius: 6px;
+    transition: background-color 0.2s;
+}
+
+.btn-reglamento:hover {
+    background-color: #ffca28;
+}
+
+/* TARJETAS DE INFORMACIÓN GENERAL Y MANTENEDOR */
+.tarjeta-info {
+    text-align: center;
+}
+
+.lista-categorias {
+    list-style: none;
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    text-align: left;
+}
+
+.lista-categorias li a {
+    color: #D35400;
+    text-decoration: none;
+    display: block;
+    background: rgba(255, 255, 255, 0.5);
+    padding: 1rem;
+    border: 1px solid #D35400;
+    border-radius: 6px;
+}
+
+.lista-categorias li a:hover {
+    background-color: #FFD700;
+}
+
+.datos-mantenedor p {
+    margin-bottom: 1rem;
+    font-size: 1.05rem;
+}
+
+/* FORMULARIO DE CONTACTO */
+.formulario-contacto {
+    max-width: 550px;
+    margin: 1.5rem auto 0;
+    text-align: left;
+}
+
+.grupo-campo {
+    margin-bottom: 1.2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.grupo-campo label {
+    font-weight: bold;
+    margin-bottom: 0.3rem;
+}
+
+.grupo-campo input,
+.grupo-campo select,
+.grupo-campo textarea {
+    padding: 0.7rem;
+    font-style: italic;
+    color: #D35400;
+    border: 2px solid #D35400;
+    border-radius: 5px;
+    font-family: inherit;
+    font-size: 1rem;
+    background-color: #ffffff;
+}
+
+.btn-enviar {
+    width: 100%;
+    padding: 10px;
+    background-color: #FFD700;
+    color: #8A3300;
+    border: 2px solid #D35400;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-enviar:hover {
+    background-color: #ffca28;
+}
+
+/* PIE DE PÁGINA */
+footer {
+    text-align: center;
+    padding: 1.2rem;
+    background-color: #6fbddf;
+    border-top: 3px solid #D35400;
+    font-size: 0.95rem;
+}
+
+/* RESPONSIVIDAD: Ajuste para pantallas de escritorio/tablets */
+@media (min-width: 680px) {
+    .tarjeta-juego {
+        flex-direction: row;
+        text-align: left;
+        align-items: center;
+    }
+
+    .info-juego {
+        align-items: flex-start;
+        text-align: left;
+    }
+}

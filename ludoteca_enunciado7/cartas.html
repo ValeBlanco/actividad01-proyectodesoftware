@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cartas - Ludoteca</title>
+    <link rel="stylesheet" href="estilosIA.css">
+</head>
+<body>
+    <header>
+        <div class="logo-area">
+            <h1>Ludoteca Central</h1>
+            <p class="subtitulo">Portal de Reseñas y Reglamentos de Juegos de Mesa</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="estrategia.html">Estrategia</a></li>
+                <li><a href="cartas.html" class="activo">Cartas</a></li>
+                <li><a href="familiares.html">Familiares</a></li>
+                <li><a href="mantenedor.html">Quién Mantiene el Sitio</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="categoria-seccion">
+            <h2>Juegos de Cartas</h2>
+            <p class="descripcion-seccion">Títulos dinámicos basados en naipes, mecánicas de faroleo y rondas rápidas.</p>
+
+            <div class="lista-juegos">
+                <!-- Juego 1: Truco (como muestra el ejemplo del enunciado) -->
+                <article class="tarjeta-juego">
+                    <div class="contenedor-foto">
+                        <img src="imagenes/truco.png" alt="Foto del juego Truco">
+                    </div>
+                    <div class="info-juego">
+                        <h3>Truco</h3>
+                        <p class="resena">Tradicional juego de naipes jugado con baraja española. Se disputa por bazas y puntos mediante el engaño, las señas entre compañeros, el envido y la habilidad para cantar el truco.</p>
+                        <a href="reglamentos/truco.pdf" class="btn-reglamento" download>Descargar Reglamento (.pdf)</a>
+                    </div>
+                </article>
+
+                <!-- Juego 2: Exploding Kittens -->
+                <article class="tarjeta-juego">
+                    <div class="contenedor-foto">
+                        <img src="imagenes/exploding_kittens.png" alt="Foto del juego Exploding Kittens">
+                    </div>
+                    <div class="info-juego">
+                        <h3>Exploding Kittens</h3>
+                        <p class="resena">Juego dinámico y humorístico de cartas. Los participantes roban del mazo rogando no toparse con un gato explosivo mientras utilizan cartas de acción para pasar de turno o sabotear rivales.</p>
+                        <a href="reglamentos/exploding_kittens.pdf" class="btn-reglamento" download>Descargar Reglamento (.pdf)</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Ludoteca - Sitio estático desarrollado para la Actividad de Comparación de IA</p>
+    </footer>
+</body>
+</html>
